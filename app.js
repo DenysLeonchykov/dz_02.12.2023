@@ -15,3 +15,11 @@ div.addEventListener('mousemove', (ev) => {
     y.innerHTML = elementY;
 })
 
+
+div.addEventListener('mouseover', (ev) => {
+    div.style.backgroundColor = "#008000";
+})
+
+div.addEventListener('mouseout', (ev) => {
+    div.style.backgroundColor = "#fff";
+})
